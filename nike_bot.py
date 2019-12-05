@@ -11,6 +11,7 @@ if __name__ == "__main__":
 
 	t = time.time()
 
+	# do forever
 	while True:
 		try:
 			r = requests.get('https://www.nike.com/launch/')
